@@ -1,0 +1,8 @@
+* Annex V - list of variables in the system
+
+%import names
+%names.process_rules(['gridscape.txt', 'gridscape.csv'])
+%for p in names.names():
+   %u = names.units(p)
+   | $p | $u |  | |
+
