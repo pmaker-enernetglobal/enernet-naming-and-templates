@@ -1,0 +1,30 @@
+Names,		Rules,		Units,		Short,		Long
+P,		<Gs-Meter>,	kW,		Active Power, 	Active Power at nominated PCC
+E,		<Gs-Meter>,	kWh,		Energy,		Energy at nominated PCC
+Qh,		<Pq-Meter>,	kvarh,		Reactive Power Hours,
+S,		<Pq-Meter>,	kVA,		Apparent Power,
+Sh,		<Pq-Meter>,	kVAh,		Apprarent Power Hours,
+F,		<Pq-Meter>,	Hz,		Frequency,
+I,		<Pq-Meter>,	A,		Total Current,
+I1,		<Pq-Meter>,	A,		Phase 1 Current,
+I2,		<Pq-Meter>,	A,		Phase 2 Current,
+I3,		<Pq-Meter>,	A,		Phase 3 Current,
+Pf,		<Pq-Meter>,	pf,		Power Factor, Conventions for Powerfactors
+U,		<Pq-Meter>,	V,		Average Phase to Phase Voltage
+Un,		<Pq-Meter>,	V,		Average Phase to Neutral Voltage
+U12,		<Pq-Meter>,	V,		Phase 1 to 2 Voltage, Phase 1 is Phase A
+U23,		<Pq-Meter>,	V,		Phase 2 to 3 Voltage, Phase 2 is Phase B
+U31,		<Pq-Meter>,	V,		Phase 3 to 1 Voltage, Phase 3 is Phase C
+U1n,		<Pq-Meter>	V,		Phase 1 to N Voltage,
+U2n,		<Pq-Meter>	V,		Phase 2 to N Voltage,
+U3n,		<Pq-Meter>	V,		Phase 3 to N Voltage,
+Pu,		,		pu		Per Unit (0..1), A ratio between 0 and 1
+Pct,		,		%,		Percentage,
+D,		<Currency>,	$,		Dollars, This is the generic currency unit
+Usd,		<Currency>,	USD,		US Dollars,
+Aud,		<Currency>,	AUD,		Australian Dollars,
+Php,		<Currency>,	PHP,		Philipines Peso,
+T,		,		s,		Seconds,
+Y,		,		yrs,		Years,
+L,		,		L,		Litres,
+Lperh,		,		L/h,		Litres Per Hour,

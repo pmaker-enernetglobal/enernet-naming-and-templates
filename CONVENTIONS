@@ -1,0 +1,25 @@
+CONVENTIONS - a summary of naming convention rules.
+
+This document provides a summary of the various conventions that used in the naming convention.
+Thhis
+
+* Toplevel names
+Sys
+Gen
+
+* Gs/OHM naming
+
+* Units
+1. All units must be consistent, i.e. kW, kWh, ..
+2. Unit names match the entire unit, i.e. Eperl not EPerL (uhmmm.)
+
+
+* Names for convetion files
+
+Gs
+Enernet
+Ohm
+
+Gs1096Iter10Pv1MaxPPa
+
+
