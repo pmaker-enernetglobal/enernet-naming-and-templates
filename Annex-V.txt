@@ -1,0 +1,12 @@
+* Annex V - list of variables in the system
+This table is a complete list of variables.
+
+%import names
+%names.process_rules(['Names.txt', 'Devices.csv', 'Gridscape.csv', 'Abbreviations.csv', 'Units.csv'])
+| Name | Units | Short | Long |
+%for p in names.names():
+   %u = names.units(p)
+   %s = names.short(p)
+   %l = names.long(p)
+   | $p | $u | $s | $l |
+

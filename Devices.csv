@@ -1,0 +1,8 @@
+Names,		Rules,		Units,		Short,		Long
+Sys,		,		,		System (Total),
+Gen,		,		,		Generator,
+Pv,		,		,		Photovoltaic Generator,
+Wtg,		,		,		Wind Turbine Generator,
+Ess,		,		,		Energy Storage System,
+Fed,		,		,		Feeder,
+Pcc,		,		,		Point of Common Coupling,

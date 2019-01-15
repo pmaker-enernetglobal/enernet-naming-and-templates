@@ -1,0 +1,56 @@
+* Electrical
+** Load
+Profile
+Reserve Requirement - none, fixed volume, instant %, annual %,
+Increase Reserve Margin
+Decrease Reserve Margin
+(Review)
+** Gen (Gensets)
+Derating Gennerator Cap
+Always Running
+Relax Minimum Output
+(Review)
+** Ess (Battery)
+kW size
+kWh size
+Provide spinning reserve
+** Pv (Solar)
+kW rating
+ground vs roof mount
+Reserve requirement None or %
+Firming Requirement  80% 
+** Grid (Grid)
+Capacity kW
+Fixed Price or Time series
+$/kWh
+Outage vector
+Include in PPA
+* Project Cost
+TBA
+** Calendar
+SysDebttartDate
+SysDebtScheduleY
+SysDebtTermY
+SysDepStartDate
+SysSepSchedukleY
+SysPpaStartDate
+SysPpaTermY
+SysProjectScheduleY
+* Finance
+SysFinTgtIrrPct
+SysFinDebtRatePu (should this be Pct?)
+SysFinLeveragePu
+SysCpiFixedPricePct SysCpiOpexPct SysCpiPpaPct
+SysCpiFuelPct
+SysRefPriceUsdpere
+SysProjCostPct
+SysPpaEnergyVolate>???
+SysContingencyPct
+** Opex
+Accounting Sys
+SysOpexAccountUsdpery
+SysOpexLabourUsdpery
+SysOpexMangagementUsdpery
+SysOpexDissassemblerUsdpere
+
+more but I've got a heacahce
