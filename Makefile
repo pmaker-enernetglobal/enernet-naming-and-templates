@@ -1,8 +1,11 @@
+#
 # Makefile - for enernet naming conventions and templates
+#
 
-all:
-	../names/names.py gridscape.csv gridscape.txt
+.PHONEY: names all
+
+names:
+	../names/names.py -v Names.txt Devices.csv Gridscape.csv Abbreviations.csv Units.csv 
 	cat all_names.csv
-	PYTHONPATH=../names ../transmogrify/transmogrify.py vars.txt | ../microword/microword.py 
+	PYTHONPATH=../names ../transmogrify/transmogrify.py Annex-V.txt | ../microword/microword.py 
 	open output.docx
-

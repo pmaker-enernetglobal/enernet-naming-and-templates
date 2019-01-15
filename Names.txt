@@ -1,9 +1,41 @@
+# override <Names> if you just want to <Gen> for example
 
-<Names> ::= <Thing><Meter>
+<Names> ::= <Devices>
 
-<Thing> ::= Gen|Sys
+<Devices> ::= <Sys>|<Load>|<Gen>|<Pv>|<Wtg>|<Ess>|<Fed>|<Pcc>
 
+# Meter - generic power meter
 <Meter> ::= <Gs-Meter>|<Pq-Meter>
+<Gs-Meter> ::= <Gs-Meter-IO>|Imp<Gs-Meter-IO>|Exp<Gs-Meter-IO>
+<Pq-Meter> ::= <Pq-Meter-IO>|Imp<Pq-Meter-IO>|Exp<Pq-Meter-IO>|<Pq-Meter-O>
+<Meter-Extras> ::= 
+
+<Sys> ::= Sys<Meter>|<Gridscape>
+
+<Load> ::= Load<LoadN><Meter>
+<LoadN> ::= |1|2
+
+<Gen> ::= Gen<GenN><Meter>
+<GenN> ::= |1|2|3|4
+
+<Pv> ::= Pv<PvN><PvVals>
+<PvN> ::= |1|2|3|4
+<PvVals> ::= <Meter>|AvailP|SetP|SetQ|SpillP
+
+<Wtg> ::= Wtg<WtgN><Meter>
+<WtgN> ::= |1|2|3|4
+
+
+<Ess> ::= Ess<EssN><Meter>
+<EssN> ::= |1|2|3|4
+
+
+<Fed> ::= Fed<FedN><Meter>
+<FedN> ::= |1|2|3|4
+
+<Pcc> ::= Pcc<PccN><Meter>
+<PccN> ::= |1|2|3|4
+
 
 
 
